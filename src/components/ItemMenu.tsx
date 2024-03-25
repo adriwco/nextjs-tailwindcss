@@ -14,7 +14,7 @@ const ItemMenu = ({name}: Props) => {
         src={Arrow}
         alt='Arrow dropdown'
       />
-   </button>
+    </button>
   )
 }
 
