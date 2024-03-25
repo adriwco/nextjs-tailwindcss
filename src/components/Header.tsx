@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 import ItemMenu from './ItemMenu'
 import Search from './Search'
+import Container from './Container'
 
 import Logo from '@/assets/logo.svg'
 import IconUser from '@/assets/icon-user.svg'
@@ -9,8 +10,8 @@ import IconUser from '@/assets/icon-user.svg'
 const Header = () => {
   return (
     <header className='relative flex items-center w-full h-20 bg-primary-orange'>
-      <div className='flex items-center max-w-[1246px] pl-[15px] mx-auto'>
-        <div className='grid grid-cols-[3fr,1fr] items-center pr-3'>
+        <Container>
+          <div className='grid grid-cols-[3fr,1fr] items-center pr-3'>
           <div className='flex items-center gap-14 mr-[218px]'>
             <Image
              src={Logo}
@@ -34,8 +35,8 @@ const Header = () => {
               <Image src={IconUser} alt='Icon user' />
               <span className='text-white font-bold'>Acessar conta</span>
           </button>
-        </div>
-      </div>
+          </div>
+        </Container>
     </header>
   )
 }
