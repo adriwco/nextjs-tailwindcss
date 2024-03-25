@@ -1,32 +1,39 @@
-import React from 'react'
 import Image from 'next/image'
+
+import ItemMenu from './ItemMenu'
+import Search from './Search'
+
 import Logo from '@/assets/logo.svg'
-import Arrow from '@/assets/arrow-down.svg'
+import IconUser from '@/assets/icon-user.svg'
 
 const Header = () => {
   return (
-    <header className='w-full h-20 bg-primary-orange'>
-      <div>
-        <div>
-          <div>
+    <header className='relative flex items-center w-full h-20 bg-primary-orange'>
+      <div className='flex items-center max-w-[1246px] pl-[15px] mx-auto'>
+        <div className='grid grid-cols-[3fr,1fr] items-center pr-3'>
+          <div className='flex items-center gap-14 mr-[218px]'>
             <Image
              src={Logo}
              alt='logo'
             />
             <nav>
               <ul>
-                <li>
-                  <button>
-                    <span>Para você</span>
-                    <Image
-                      src={Arrow}
-                      alt='Arrow dropdown'
-                    />
-                  </button>
+                <li className='flex items-center gap-10'>
+                  <ItemMenu name='Para você'/>
+                  <ItemMenu name='Para empresas'/>
+                  <ItemMenu name='Serviços'/>
+                  <ItemMenu name='Ajuda'/>
                 </li>
               </ul>
             </nav>
           </div>
+          <div className='absolute right-0 mr-[230px]'>
+            <Search/>  
+          </div>
+          <button className='absolute right-0 top-0 flex items-center gap-4 bg-primary-blue h-full px-10'>
+              <Image src={IconUser} alt='Icon user' />
+              <span className='text-white font-bold'>Acessar conta</span>
+          </button>
         </div>
       </div>
     </header>
