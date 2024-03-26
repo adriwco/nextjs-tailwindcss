@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## <p align="center">nextjs-tailwindcss</p>
+<a href="https://github.com/adriwco"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"/></a>
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+[![TypeScript](https://skills.thijs.gg/icons?i=ts)](https://pt.wikipedia.org/wiki/TypeScript)
+[![TailwindCSS](https://skills.thijs.gg/icons?i=tailwindcss)](https://en.wikipedia.org/wiki/Tailwind_CSS)
+[![NextJS](https://skills.thijs.gg/icons?i=next)](https://pt.wikipedia.org/wiki/Next.js)
+[![Figma](https://skills.thijs.gg/icons?i=figma)](https://pt.wikipedia.org/wiki/Figma)
+[![VSCode](https://skills.thijs.gg/icons?i=vscode)](https://pt.wikipedia.org/wiki/Visual_Studio_Code)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+***
+#### 🔸Pré-visualização (screenshot - desktop):
+[![screencapture](https://github.com/adriwco/nextjs-tailwindcss/assets/80191040/92bc7abb-ca33-46e6-b454-47fde7709113)](https://github.com/adriwco/nextjs-tailwindcss)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+***
+### <p align="center">🔸[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)🔸</p>
